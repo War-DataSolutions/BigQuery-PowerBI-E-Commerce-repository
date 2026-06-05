@@ -1,4 +1,5 @@
 # Global E-Commerce Revenue & Customer Analytics
+![E-Commerce Dashboard](dashboard.png)
 
 ## Project Overview
 Since production-level corporate e-commerce data is highly confidential, I designed and simulated a real-world messy dataset with 4,000 transaction rows inside Google BigQuery. This project demonstrates an end-to-end analytics workflow—handling structural data anomalies, performing multi-region cloud warehousing, and deploying executive business intelligence layer.
