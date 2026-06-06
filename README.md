@@ -6,7 +6,9 @@ Since production-level corporate e-commerce data is highly confidential, I desig
 
 ## Tech Stack Used
 * **Cloud Data Warehouse:** Google BigQuery
-* * **Data Transformation:** SQL (DBT-style staging architecture)* **Business Intelligence:** Microsoft Power BI Desktop
+* * **Data Transformation:** SQL (DBT-style staging architecture)
+* **Business Intelligence:** Microsoft Power BI Desktop
+  
 ---
 
 ## Data Pipeline Architecture
