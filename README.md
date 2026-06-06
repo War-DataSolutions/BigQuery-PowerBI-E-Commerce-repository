@@ -6,7 +6,7 @@ Since production-level corporate e-commerce data is highly confidential, I desig
 
 ## Tech Stack Used
 * **Cloud Data Warehouse:** Google BigQuery
-* * **Data Transformation:** SQL (DBT-style staging architecture)
+* **Data Transformation:** SQL (DBT-style staging architecture)
 * **Business Intelligence:** Microsoft Power BI Desktop
   
 ---
@@ -24,8 +24,8 @@ Engineered a clean schema layer inside BigQuery to enforce data integrity before
 ### 3. Executive Visualization Layer
 Directly extracted the finalized staging table into Power BI using service account authentication. Developed critical core measures:
 * **Total Sales:** Core gross revenue calculation.
-* * **Average Order Value (AOV):** Dynamic cross-filtered metric tracking individual basket value.
-* * **State Performance Matrix:** Implemented visual conditional data bars to immediately highlight the most profitable geographical zones.
+* **Average Order Value (AOV):** Dynamic cross-filtered metric tracking individual basket value.
+* **State Performance Matrix:** Implemented visual conditional data bars to immediately highlight the most profitable geographical zones.
 ----
 ## How to Review
 1. Open `01_raw_table_generation.sql` to check raw array logic.
